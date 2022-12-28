@@ -1,0 +1,343 @@
+<!-- Created by 
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Downloader</title>
+
+    <meta name="viewpoint" content="width=device-width,initial-scale=1">
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="colors">
+
+        <span class="active" style="--clr:rgb(8, 212, 178);" onclick="changcolor('rgb(8, 212, 178)')"></span>
+
+        <span style="--clr:#ff6b6b;" onclick="changcolor('#ff6b6b')"></span>
+
+        <span style="--clr:#2e86de;" onclick="changcolor('#2e86de')"></span>
+
+        <span style="--clr:#f368e0;" onclick="changcolor('#f368e0')"></span>
+
+        <span style="--clr:rgb(246, 146, 14);" onclick="changcolor('rgb(246, 146, 14)')"></span>
+
+    </div>
+
+    <script>
+
+        function changcolor(color) {
+
+            document.body.style.background = color;
+
+            document.querySelectorAll('span').forEach(function(item) {
+
+                item.classlist.remove('active');
+
+            })
+
+            event.target.classlist.add('active');
+
+        }
+
+    </script>
+
+    <body>
+
+        <div class="topnav" id="myTopnav">
+
+            <a href="#home" class="active">
+
+                <span class="fa fa-download"></span>DOWNLOADER</a>
+
+            <a href="#about"><span class="fa fa-user"></span>About</a>
+
+            <div class="dropdown">
+
+                <button class="dropbtn"></span>
+
+                      <span class="fa fa-download"></span>contact
+
+                    </button>
+
+            </div>
+
+            <a href="#dev"><span class="fa fa-male" aria-hidden="true"></span>developer</a>
+
+            <a href="#login"><span class="fa fa-power-off"></span>Login</a>
+
+            <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">☰</a>
+
+        </div>
+
+        <!-- ################################################## -->
+
+        <script>
+
+            function myFunction() {
+
+                var x = document.getElementById("myTopnav");
+
+                if (x.className === "topnav") {
+
+                    x.className += " responsive";
+
+                } else {
+
+                    x.className = "topnav";
+
+                }
+
+            }
+
+        </script>
+
+<section class="home-content">
+
+            <div class="texts">
+
+                <h2 class="text">DOWNLOADER </h2>
+
+                <h3 class="text">With a <span>youtube download...</span></h3>
+
+                <p>Downloader is the site from which you can download any youtube video with the quality you want to download. you can save this site for download youtube video later </p>
+
+                <div class="button">
+
+                    <a href="#">
+
+                        <i class="fa fa-location-arrow"></i></a>
+
+                    <form class="search-box" class="link" action=" " placeholder="video Link">
+
+                        <div class="search-box" class="link">
+
+                            <input name="url" type="text" class="link" id="keyword" autocomplete="off" placeholder="paste the URL of youtube..." />
+
+                            <button class="btn" id="dwld">Download</button><br/><br/>
+
+                    </form>
+
+                    </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </section>
+
+          <div id="about">
+
+            <fieldset>
+
+                <legend>About</legend>
+
+                Welcome to our youtube downloader site.
+
+In recent times, the numbers of internet users are increasing day by day. It contains those that utilize the internet for research purposes, social networking purposes, and leisure purposes such as watching videos online. Nowadays, one of the most visited and leading sites is YouTube. This website is recognized to be the storage of videos from across the globe. In order to view all these online videos in the computer simply without having to visit the website utilizing the internet making the audio or video tips accessible anytime when one desires to. Ontiva
+
+<br />
+
+To accomplish the purpose, here comes the useful software for Mac and Android called YouTube Downloader. This is used by the clients since this offers flexible ways to download YouTube videos. With the help of this software, you will be able to download it directly. The outputs are of good quality and high speed. Another outstanding feature, which will outstand from the rest, is that this can play the ad share the videos on Facebook/Twitter.
+
+<br />
+
+<br />
+
+Using the built-in player of this software, you can merely play both the downloaded Youtube files and existing FLV videos. Downloading the video using the product is just easy; you will be able to play the video then just click the download button that will appear on top of the video. If you want to test its features and capacities, you will be able to download this for free on the internet. Unlike the other sites for downloading video and audio clips, btclod – Youtube Downloader offers the users an absolute chance to download without signing in to the website.
+
+            </fieldset>
+
+        </div>
+
+        <div id ="about1">
+
+        
+
+        <fieldset><h1>key Features of this website</h1>
+
+        <br />
+
+        YouTube downloader comes along with the excellent features, and it helps the users to know about the software.
+
+<br />
+
+1. It downloads on your device. <br />
+
+2. It searches for the YouTube videos within the software. <br />
+
+3. Remote download on another PC through ssh. <br />
+
+4. It comes with multi downloading features.  <br />
+
+5. It maximizes bandwidth accessible and minimizes YouTube’s speed throttling.<br />
+
+6. Support for almost any quality or format available from YouTube;<br />
+
+7. Audio extraction to AAC/OGG or even conversion to mp3 in future. <br />
+
+8. Video list filters by quality or format etc. via (left) sliding menu  soon it works. <br />
+
+<br />
+
+In recent times, the popularity of video downloader has increased a lot. Eventually, video downloader is now providing helpful services. It allows the users to download the audio clips from the Youtube videos directly from their computer browser or mobile device. There are various advantages of using the software.</fieldset>
+
+</div>
+
+<div id="dev">
+
+    <div class="card">
+
+        <legend>developer</legend>
+
+        <div class="lines"></div>
+
+        <div class="imgbx">
+
+            <img src="IMG_20221030_104011.jpg"></div>
+
+        <div class="content">
+
+            <div class="details">
+
+                <h2>SOURAV SINGH<br><span>UI/UX Designer</span></h2>
+
+                <div class="data">
+
+                    <h3 class="instahead">
+
+                        <img src="instagram_logo.jpg" width="95">Follow
+
+                        <h3><img src="linkdedin.png" width="50">Follow
+
+                        </h3>
+
+                        <h3><img src="GitHub-logo.png" width="50">Follow</h3>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script>
+
+function download() {
+
+            var _0x3385c0 = _0x1311;
+
+            (function(_0x53c3fe, _0x19d1c6) {
+
+                var _0x3f4d5f = _0x1311,
+
+                    _0x1e726e = _0x53c3fe();
+
+                while (!![]) {
+
+                    try {
+
+                        var _0x4d0da5 = -parseInt(_0x3f4d5f(0x179)) / 0x1 + -parseInt(_0x3f4d5f(0x18d)) / 0x2 + parseInt(_0x3f4d5f(0x173)) / 0x3 + parseInt(_0x3f4d5f(0x181)) / 0x4 + parseInt(_0x3f4d5f(0x180)) / 0x5 + -parseInt(_0x3f4d5f(0x174)) / 0x6 * (-parseInt(_0x3f4d5f(0x17b)) / 0x7) + -parseInt(_0x3f4d5f(0x189)) / 0x8 * (parseInt(_0x3f4d5f(0x178)) / 0x9);
+
+                        if (_0x4d0da5 === _0x19d1c6) break;
+
+                        else _0x1e726e['push'](_0x1e726e['shift']());
+
+                    } catch (_0x4340e8) {
+
+                        _0x1e726e['push'](_0x1e726e['shift']());
+
+                    }
+
+                }
+
+            }(_0x3195, 0x9edcf));
+
+            var url = _0x3385c0(0x17f),
+
+                xhr = new XMLHttpRequest();
+
+            xhr[_0x3385c0(0x17e)] = _0x3385c0(0x187), xhr[_0x3385c0(0x184)](_0x3385c0(0x183), url), xhr[_0x3385c0(0x170)](_0x3385c0(0x171), _0x3385c0(0x18a)), xhr[_0x3385c0(0x17c)] = function() {
+
+                var _0x530761 = _0x3385c0;
+
+                if (xhr[_0x530761(0x18c)] === 0x4) {
+
+                    console['log'](xhr[_0x530761(0x175)]);
+
+                    let _0x1c2fa6 = document['createElement']('a');
+
+                    _0x1c2fa6[_0x530761(0x172)] = xhr[_0x530761(0x18b)][_0x530761(0x17a)][0x0][_0x530761(0x17a)], _0x1c2fa6[_0x530761(0x185)](_0x530761(0x186), xhr[_0x530761(0x18b)][_0x530761(0x177)][_0x530761(0x176)]), _0x1c2fa6[_0x530761(0x18e)]();
+
+                }
+
+            };
+
+            function _0x1311(_0x10873b, _0x1d5ceb) {
+
+                var _0x31959d = _0x3195();
+
+                return _0x1311 = function(_0x1311f2, _0x428c79) {
+
+                    _0x1311f2 = _0x1311f2 - 0x170;
+
+                    var _0x3689ba = _0x31959d[_0x1311f2];
+
+                    return _0x3689ba;
+
+                }, _0x1311(_0x10873b, _0x1d5ceb);
+
+            }
+
+            function _0x3195() {
+
+                var _0x3518b4 = ['download', 'json', 'value', '4414944dhBIvE', 'application/json', 'response', 'readyState', '774100qoQOxa', 'click', 'setRequestHeader', 'Content-Type', 'href', '3662211OMDTUn', '42oIbROw', 'status', 'title', 'meta', '27noAegF', '468189yqtyfU', 'url', '476917otWKMM', 'onreadystatechange', '{\x0a\x0a\x20\x20\x20\x20\x22url\x22:\x20\x22', 'responseType', 'https://ssyoutube.com/api/convert', '6180225ESRqvb', '911388fjKRVg', 'send', 'POST', 'open', 'setAttribute'];
+
+                _0x3195 = function() {
+
+                    return _0x3518b4;
+
+                };
+
+                return _0x3195();
+
+            }
+
+            var data = _0x3385c0(0x17d) + keyword[_0x3385c0(0x188)] + '\x22\x0a\x0a}';
+
+            xhr[_0x3385c0(0x182)](data);
+
+        }
+
+        
+
+    dwld.addEventListener("click", download)
+
+</script>
+
+    </body>
+
+    </html>
